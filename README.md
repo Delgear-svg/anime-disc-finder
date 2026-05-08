@@ -23,7 +23,7 @@ Searches Amazon.com, Amazon.co.jp, Crunchyroll Store, and eBay (fallback) for DV
 
 1. **Clone the repo:**
    ```bash
-   git clone https://github.com/YOUR_USERNAME/anime-disc-finder.git
+   git clone https://github.com/Delgear-svg/anime-disc-finder.git
    cd anime-disc-finder
    ```
 
