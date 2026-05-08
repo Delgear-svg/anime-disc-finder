@@ -1,0 +1,1 @@
+0 3 1,15 * * cd /app && python cron_job.py >> /app/data/cron.log 2>&1

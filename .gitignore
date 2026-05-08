@@ -1,0 +1,23 @@
+# Dependencies
+__pycache__/
+*.pyc
+*.pyo
+
+# Credentials - NEVER commit these
+credentials/
+*.json
+!requirements.txt
+
+# App data
+data/
+
+# Docker
+.dockerignore
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/

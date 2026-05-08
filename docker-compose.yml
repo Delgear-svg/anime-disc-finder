@@ -1,0 +1,11 @@
+version: "3.8"
+services:
+  anime-disc-finder:
+    image: your-dockerhub-user/anime-disc-finder:latest
+    container_name: anime-disc-finder
+    ports:
+      - "8501:8501"
+    volumes:
+      - /mnt/pool/apps/anime-disc-finder/credentials:/app/credentials:ro
+      - /mnt/pool/apps/anime-disc-finder/data:/app/data
+    restart: unless-stopped
